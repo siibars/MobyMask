@@ -105,7 +105,10 @@ yarn chain
 cd scaffold-eth
 yarn start
 ```
-
+NB : for node 18 do mind doing this before start
+```bash
+export NODE_OPTIONS=--openssl-legacy-provider
+```
 > in a third terminal window, 🛰 deploy your contract:
 
 ```bash
